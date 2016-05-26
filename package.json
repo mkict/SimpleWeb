@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mkict/SimpleWeb#readme",
   "dependencies": {
+    "express": "^4.13.4",
     "lodash": "^4.13.1"
   }
 }

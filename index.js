@@ -1,6 +1,12 @@
-var _ = require("lodash");
-var math = require("./math");
-console.log(math.gcd(25,5));
-console.log(math.sum(5,5));
+var express = require("express");
+var app = express();
+var PORT = 8080;
 
-console.log(_.concat([1,2,3],[4,5]));
+app.get('/',function(req,res){
+	res.send("Hello World");
+});
+
+app.listen(PORT,function(){
+	console.log('Listening on '+PORT+' ....');
+});
+
