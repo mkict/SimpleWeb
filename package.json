@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/mkict/SimpleWeb#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "morgan": "^1.7.0"
   }
 }
